@@ -70,16 +70,13 @@ p {
     padding-bottom: 94px;
 }
 
-.container {
-    max-width: 1200px;
-     margin: 0 auto; 
-}
 
 
 
 .section-title { 
     text-align: center;
     margin-bottom: 50px;
+    padding-top: 0;
 
     font-weight: 700;
     font-size: 36px;
@@ -89,8 +86,12 @@ p {
     color: var(--primary-color);
 }
 
+.container {
+    max-width: 1200px;
+     margin: 0 auto; 
+}
 
-
+/******************* лого *//***************/
 .logo {
     color: var(--color-logo);
 
@@ -118,7 +119,7 @@ p {
 .heder-list {
     display: flex;
     margin-left: 93px;
-
+    
 }
 
 
@@ -137,6 +138,9 @@ p {
 }
 .heder-link {
     display: flex;  
+    padding-top: 32px;
+    padding-bottom: 32px;
+
    
     
 
@@ -157,6 +161,7 @@ p {
 .secondary-list {
     display: flex;
    margin-left: auto;
+  
     
 }
  
@@ -171,6 +176,10 @@ p {
 
 
 .secondary-link {
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -252,6 +261,10 @@ p {
     color: var(--font-color-primary);
 }
 
+.section-work {
+    padding-top: 0;
+}
+
 .section-azur-background {
     background-color: var(--azur-background);
 }
@@ -306,7 +319,10 @@ p {
 .footer-container {
     max-width: 1200px;
     margin: 0 auto;
-    margin-left: 215px;
+    margin-left: 150px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
 }
 
 .logo_footer {
@@ -319,9 +335,17 @@ p {
     font-style: normal;
 }
 
+.footer-list {
+    padding-top: 20px;
+}
 
+.footer-item {
+    padding-bottom: 9px;
+}
 
 .footer-link-address {
+    
+
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -330,5 +354,7 @@ p {
 }
 
 .footer-link {
+    
+
     color: rgba(255, 255, 255, 0.6);
 }
